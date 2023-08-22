@@ -1,3 +1,65 @@
 /* 
-    General Styles used on every website (Don't Repeat Yourself)
+
+font-family: 'Lora', serif;
+font-family: 'Mulish', sans-serif;
+
 */
+
+.footer-subtitle{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b2d42;
+    font-style: italic;
+}
+
+.footer-text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+    color: #2b2d42
+}
+
+.footer-a {
+    text-decoration: none;
+    color: #2b2d42
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 250px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 50%; /* Convierte el contenedor en un círculo perfecto */
+    overflow: hidden; /* Asegura que la imagen no se salga del círculo */
+  }
+  
+.custom-circle-img {
+    width: 100%;
+    height: auto;
+  }
+
+.name{
+    font-family: 'Lora', serif;
+    font-size: 68px;
+    line-height: 45px;
+    color: #297373;
+    font-style: italic;
+}
+
+.lastname{
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 45px;
+    color: #297373;
+    font-style: italic;
+    margin-left: 30px
+}
+
+.bio{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #2b2d42
+}
