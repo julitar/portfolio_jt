@@ -29,6 +29,7 @@ font-family: 'Mulish', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     width: 250px; /* Ajusta el tamaño de la imagen según tus necesidades */
     height: 250px; /* Ajusta el tamaño de la imagen según tus necesidades */
     border-radius: 50%; /* Convierte el contenedor en un círculo perfecto */
@@ -38,6 +39,7 @@ font-family: 'Mulish', sans-serif;
 .custom-circle-img {
     width: 100%;
     height: auto;
+    align-items: center;
   }
 
 .name{
@@ -62,4 +64,31 @@ font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 25px;
     color: #2b2d42
+}
+
+.my-button{
+    background-color: #dde3df;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #00000040;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    color:#2b2d42;
+    width: 140px;
+    border: none;
+    text-decoration: none; 
+}
+
+.my-button:hover{
+    background-color: #2B2D42;
+    font-family: 'Mulish', sans-serif;
+    box-shadow: 2px 2px 2px #92929240;
+    font-size: 12px;
+    color:#DDE3DF;
+}
+
+.my-button:active{
+    transform: translateY(2px);
+    background-color: #2B2D42 !important;
+    box-shadow: 2px 2px 2px #92929240; 
+    color:#DDE3DF !important;
 }
